@@ -28,7 +28,7 @@ public class ListFrame extends Frame
 	{
 		 original();
 		 buttonControl1.setBounds(new Rectangle(12, 197, 53, 39));
-	     buttonControl1.setLabel("Servers");
+	     buttonControl1.setLabel("Servers to connect to...");
 	     buttonControl1.addActionListener(new ListFrameListener1(this));
 	     bevelPanel2.add(buttonControl1, null);		   
    }
