@@ -49,14 +49,12 @@ public class VODClient extends Frame
         video.setvideostream(curmovie.getstream_url());
         label3.setText(new StringBuffer("Title: ").append(string).toString());
 
-       
-
     }
     
     void setButtonPlay(){} 
     private final void jbInit()throws Exception{
         original();
-        buttonControl1.setBounds(new Rectangle(5, 22, 60, 45));
+        buttonControl1.setBounds(new Rectangle(5, 22, 60, 50));
         buttonControl1.setLabel("Movies");
         buttonControl1.addActionListener(new VODClientListener1(this));
         bevelPanel2.add(buttonControl1, null);
