@@ -22,8 +22,6 @@ public class VODClient extends Frame
     Label label1;
     Label label2;
    
- 
-   
     Video video=null;
     Thread vthread=null;
 
