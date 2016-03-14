@@ -11,11 +11,13 @@
 					<feature name="PauseMovie"/>
 				</and>
 				<feature name="QuitPlayer"/>
-				<feature name="ChangeMoviesServer"/>
+				<and name="ChangeMoviesServer">
+					<feature name="ManualChange"/>
+				</and>
 			</and>
 		</struct>
 		<constraints/>
-		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" />
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true"/>
 		<comments/>
 		<featureOrder userDefined="false"/>
 	</featureModel>
